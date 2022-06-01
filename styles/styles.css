@@ -14,13 +14,6 @@ body {
   color: var(--primary-text-color);
 }
 
-.text-logo,
-.navigation-list a,
-.header-address a,
-.footer > address a {
-  text-decoration: none;
-}
-
 h1 {
   font-weight: 900;
   font-size: 44px;
@@ -46,6 +39,47 @@ ul > li {
   list-style-type: none;
 }
 
+.header-navigation a,
+.navigation-list a,
+.header-address a,
+.footer a {
+  text-decoration: none;
+}
+
+.text-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-left {
+  color: var(--accent-color);
+}
+
+.nav-refs {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.nav-refs:hover,
+.nav-refs:focus {
+  color: var(--accent-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address a {
+  font-style: normal;
+  color: var(--primary-text-color);
+}
+
 .article-title {
   font-weight: 700;
   font-size: 14px;
@@ -56,4 +90,17 @@ ul > li {
 
 .team-header.article-title {
   text-transform: uppercase;
+}
+
+.footer {
+  /* ВРЕМЕННО */
+  background-color: #2f303a;
+}
+
+.footer .logo-right {
+  color: var(--primary-white-color);
+}
+
+.footer .header-address {
+  color: #ffffff;
 }
