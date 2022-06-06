@@ -68,6 +68,10 @@ body {
   color: var(--title-color);
 }
 
+.footer .nav-refs {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .nav-refs:hover,
 .nav-refs:focus {
   color: var(--accent-color);
