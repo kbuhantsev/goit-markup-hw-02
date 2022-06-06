@@ -7,14 +7,13 @@
 
 body {
   font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
-h1 {
+.main h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -26,16 +25,15 @@ h1 {
   background-color: #2f303a;
 }
 
-h2 {
+.main h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.12;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
-ul > li {
+.none-decoration {
   list-style-type: none;
 }
 
@@ -47,12 +45,10 @@ ul > li {
 }
 
 .text-logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: #000000;
 }
 
@@ -71,20 +67,14 @@ ul > li {
   color: var(--accent-color);
 }
 
-.header-address {
-  font-style: normal;
-}
-
 .header-address a {
-  font-style: normal;
   color: var(--primary-text-color);
 }
 
 .article-title {
   font-weight: 700;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.1;
-  letter-spacing: 0.03em;
   color: var(--title-color);
 }
 
@@ -102,5 +92,13 @@ ul > li {
 }
 
 .footer .header-address {
-  color: #ffffff;
+  color: var(--primary-white-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.button {
+  cursor: pointer;
 }
