@@ -117,6 +117,19 @@ body {
   color: var(--primary-white-color);
 }
 
+.order-button {
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  border-style: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
 .portfolio-section h1 {
   /* ВРЕМЕННО */
   background-color: var(--primary-white-color);
