@@ -3,6 +3,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --title-color: #212121;
+  --button-bg-color: #f5f4fa;
 }
 
 body {
@@ -100,5 +101,39 @@ body {
 }
 
 .button {
+  /* обычное состояние */
   cursor: pointer;
+  background-color: var(--button-bg-color);
+  color: var(--title-color);
+  border-style: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-section h1 {
+  /* Временно */
+  background-color: var(--primary-white-color);
+  color: var(--title-color);
+}
+
+.button:focus,
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.portfolio-section .portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-section .portfolio-category {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
