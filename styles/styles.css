@@ -128,6 +128,11 @@ body {
   color: var(--main-dark-color);
 }
 
+.article-description {
+  line-height: 1.7;
+  color: var(--main-grey-color);
+}
+
 /* What are we doing */
 
 /* Our team */
@@ -141,6 +146,9 @@ body {
 
 .team-position {
   font-size: 16px;
+  line-height: 1.2;
+  color: var(--main-grey-color);
+  text-align: center;
 }
 
 /* Footer */
@@ -191,4 +199,5 @@ body {
 .portfolio-category {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--main-grey-color);
 }
